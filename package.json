@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "puppeteer": "^13.4.0"
+  },
+  "name": "y",
+  "description": "proogle with puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWisePigeon/ProogleV2.git"
+  },
+  "author": "TheWisePeePee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWisePigeon/ProogleV2/issues"
+  },
+  "homepage": "https://github.com/TheWisePigeon/ProogleV2#readme"
+}
