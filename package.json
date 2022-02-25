@@ -1,14 +1,14 @@
 {
   "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
     "puppeteer": "^13.4.0"
   },
   "name": "y",
   "description": "proogle with puppeteer",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TheWisePigeon/ProogleV2.git"
