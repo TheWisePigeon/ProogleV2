@@ -1,6 +1,8 @@
 {
   "dependencies": {
-    "puppeteer": "^13.4.0"
+    "puppeteer": "^13.4.0",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
   },
   "name": "y",
   "description": "proogle with puppeteer",
