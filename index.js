@@ -1,13 +1,12 @@
-const axios = require('axios').default
-const cheerio = require('cheerio').default
+const puppeteer = require('puppeteer')
 
-axios
-    .get("https://google.com/search?q=tom+hardy")
-    .then(async (res) => {
-        let pageData = await res.data
-        const $ = cheerio.load(pageData)
-        console.log($('.GyAeWb').text()); 
-    })
-    .catch((error) => {
-        console.log(error);
-    })
+
+async function main(params) {
+    const browser = await puppeteer.launch()
+    const page = await browser.newPage()
+    await page.goto(`https://google.com/search?q=elon+musk`)
+    await page.screenshot({path: 'screen.png'})
+
+    await browser.close()
+
+}
